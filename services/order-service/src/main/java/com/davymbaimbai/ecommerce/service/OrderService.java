@@ -1,6 +1,7 @@
 package com.davymbaimbai.ecommerce.service;
 
 import com.davymbaimbai.ecommerce.client.CustomerClient;
+import com.davymbaimbai.ecommerce.client.PaymentClient;
 import com.davymbaimbai.ecommerce.client.ProductClient;
 import com.davymbaimbai.ecommerce.exception.BusinessException;
 import com.davymbaimbai.ecommerce.kafka.OrderProducer;
@@ -24,6 +25,7 @@ public class OrderService {
     private final OrderMapper mapper;
     private final OrderLineService orderLineService;
     private final OrderProducer orderProducer;
+    private final PaymentClient paymentClient;
 
     public Integer createOrder(OrderRequest request) {
         var customer = this.customerClient.findCustomerById(request.customerId())
@@ -41,7 +43,14 @@ public class OrderService {
                     )
             );
         }
-        //todo start payment process
+        var paymentRequest = new PaymentRequest(
+            request.amount(),
+                request.paymentMethod(),
+                order.getId(),
+                order.getReference(),
+                customer
+        );
+        paymentClient.requestOrderPayment(paymentRequest);
 
         orderProducer.sendOrderConfirmation(
                 new OrderConfirmation(
