@@ -1,4 +1,4 @@
-package com.davymbaimbai.ecommerce.config;
+package com.davymbaimbai.ecommerce.kafka;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;

@@ -5,13 +5,14 @@ import com.davymbaimbai.ecommerce.client.ProductClient;
 import com.davymbaimbai.ecommerce.exception.BusinessException;
 import com.davymbaimbai.ecommerce.kafka.OrderProducer;
 import com.davymbaimbai.ecommerce.mapper.OrderMapper;
-import com.davymbaimbai.ecommerce.record.OrderConfirmation;
-import com.davymbaimbai.ecommerce.record.OrderLineRequest;
-import com.davymbaimbai.ecommerce.record.OrderRequest;
-import com.davymbaimbai.ecommerce.record.PurchaseRequest;
+import com.davymbaimbai.ecommerce.record.*;
 import com.davymbaimbai.ecommerce.repository.OrderRepository;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -53,5 +54,18 @@ public class OrderService {
         );
 
         return order.getId();
+    }
+
+    public List<OrderResponse> findAllOrders() {
+        return orderRepository.findAll()
+                .stream()
+                .map(mapper::fromOrder)
+                .collect(Collectors.toList());
+    }
+
+    public OrderResponse findOrderById(Integer orderId) {
+        return orderRepository.findById(orderId)
+                .map(mapper::fromOrder)
+                .orElseThrow(()->new EntityNotFoundException(String.format("No order found with the provided ID:: %d", orderId)));
     }
 }
