@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5abf214f-b64a-4341-8c06-f7fa2ed178bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/entity/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/enums/EmailTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/enums/NotificationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/enums/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/NotificationConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/order/OrderConfirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/payment/PaymentConfirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/record/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/record/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/repository/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/service/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/NotificationConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/service/EmailService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +219,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716905568955</updated>
       <workItem from="1716905574357" duration="72493000" />
-      <workItem from="1717067254756" duration="10416000" />
+      <workItem from="1717067254756" duration="11490000" />
     </task>
     <task id="LOCAL-00001" summary="E commerce app code solution">
       <option name="closed" value="true" />
@@ -291,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717073299058</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="E commerce app code solution">
+      <option name="closed" value="true" />
+      <created>1717079272128</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717079272128</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

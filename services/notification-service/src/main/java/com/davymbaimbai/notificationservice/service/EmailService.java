@@ -18,7 +18,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
 @Service
 @RequiredArgsConstructor
@@ -28,7 +27,7 @@ public class EmailService {
     private final SpringTemplateEngine templateEngine;
 
     @Async
-    public void sentPaymentSuccessEmail(
+    public void sendPaymentSuccessEmail(
             String destinationEmail,
             String customerName,
             BigDecimal amount,
@@ -63,7 +62,7 @@ public class EmailService {
 
     }
     @Async
-    public void sentOrderConfirmationEmail(
+    public void sendOrderConfirmationEmail(
             String destinationEmail,
             String customerName,
             BigDecimal amount,
