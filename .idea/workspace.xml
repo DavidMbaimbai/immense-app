@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5abf214f-b64a-4341-8c06-f7fa2ed178bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/resources/templates/order-confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/resources/templates/payment-confirmation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/NotificationConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/service/EmailService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/service/EmailService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/services/notification-service/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/services/notification-service/src/main/resources/templates/payment-confirmation.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/client/ProductClient.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/entity/Order.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/order-service/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
@@ -219,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716905568955</updated>
       <workItem from="1716905574357" duration="72493000" />
-      <workItem from="1717067254756" duration="11490000" />
+      <workItem from="1717067254756" duration="12743000" />
     </task>
     <task id="LOCAL-00001" summary="E commerce app code solution">
       <option name="closed" value="true" />
@@ -285,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717079272128</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="E commerce app code solution">
+      <option name="closed" value="true" />
+      <created>1717080379439</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717080379439</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
