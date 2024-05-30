@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5abf214f-b64a-4341-8c06-f7fa2ed178bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/config/KafkaPaymentTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/enums/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/mapper/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/notification/NotificationProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/record/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/record/PaymentNotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/record/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/payment-service/src/main/java/com/davymbaimbai/ecommerce/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +80,7 @@
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projects/immense-app/services/order-service/pom.xml",
+    "last_opened_file_path": "C:/projects/immense-app/services/payment-service/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,6 +106,7 @@
       <recent name="com.davymbaimbai.ecommerce.handler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\immense-app\services\order-service\src\main\java\com\davymbaimbai\ecommerce" />
       <recent name="C:\projects\immense-app\services\product-service\src\main\java\com\davymbaimbai\ecommerce" />
       <recent name="C:\projects\immense-app\services" />
       <recent name="C:\projects\immense-app\services\config-server" />
@@ -149,6 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.davymbaimbai.ecommerce.PaymentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml" />
       <method v="2" />
@@ -169,6 +193,7 @@
     <list>
       <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
       <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.PaymentServiceApplication" />
       <item itemvalue="Spring Boot.1 config-server" />
       <item itemvalue="Spring Boot.2 eureka-service" />
       <item itemvalue="Spring Boot.3 customer-service" />
@@ -195,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716905568955</updated>
-      <workItem from="1716905574357" duration="61069000" />
+      <workItem from="1716905574357" duration="70471000" />
     </task>
     <task id="LOCAL-00001" summary="E commerce app code solution">
       <option name="closed" value="true" />
@@ -213,7 +238,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717017813166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="E commerce app code solution">
+      <option name="closed" value="true" />
+      <created>1717018590763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717018590763</updated>
+    </task>
+    <task id="LOCAL-00004" summary="E commerce app code solution">
+      <option name="closed" value="true" />
+      <created>1717018664802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717018664802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="E commerce app code solution">
+      <option name="closed" value="true" />
+      <created>1717051482210</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717051482210</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
