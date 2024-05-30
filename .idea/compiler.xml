@@ -13,6 +13,7 @@
         <module name="eureka" />
         <module name="product-service" />
         <module name="notification-service" />
+        <module name="gateway" />
         <module name="order" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="config-server" options="-parameters" />
       <module name="customer-service" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="notification-service" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="payment-service" options="-parameters" />
