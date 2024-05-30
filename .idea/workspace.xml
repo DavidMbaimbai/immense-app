@@ -5,70 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5abf214f-b64a-4341-8c06-f7fa2ed178bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/client/PaymentClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/record/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/entity/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/enums/EmailTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/enums/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/enums/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/NotificationConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/order/OrderConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/kafka/payment/PaymentConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/record/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/record/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/service/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f7a9d6b-dc91-4d3e-a7ba-846e64b2b7b7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f7a9d6b-dc91-4d3e-a7ba-846e64b2b7b7/storage_v2/_src_/database/immense.BCCecg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f7a9d6b-dc91-4d3e-a7ba-846e64b2b7b7/storage_v2/_src_/database/immense.BCCecg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f7a9d6b-dc91-4d3e-a7ba-846e64b2b7b7/storage_v2/_src_/database/immense.BCCecg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f7a9d6b-dc91-4d3e-a7ba-846e64b2b7b7/storage_v2/_src_/database/immense.BCCecg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/553cbb6b-669a-4bef-aee3-f0aaefca2597.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/553cbb6b-669a-4bef-aee3-f0aaefca2597/storage_v2/_src_/database/product.78yN7Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/553cbb6b-669a-4bef-aee3-f0aaefca2597/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/553cbb6b-669a-4bef-aee3-f0aaefca2597/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/553cbb6b-669a-4bef-aee3-f0aaefca2597/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56b76d16-e53e-44e8-8534-6c8b602b07de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56b76d16-e53e-44e8-8534-6c8b602b07de/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56b76d16-e53e-44e8-8534-6c8b602b07de/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56b76d16-e53e-44e8-8534-6c8b602b07de/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56b76d16-e53e-44e8-8534-6c8b602b07de/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a64dc1c0-b0cf-4e43-be30-8f877b194b78.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a64dc1c0-b0cf-4e43-be30-8f877b194b78/storage_v2/_src_/database/product.78yN7Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a64dc1c0-b0cf-4e43-be30-8f877b194b78/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a64dc1c0-b0cf-4e43-be30-8f877b194b78/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a64dc1c0-b0cf-4e43-be30-8f877b194b78/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b50f8f3e-65c3-4bf0-ba40-fb769a95b69d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b50f8f3e-65c3-4bf0-ba40-fb769a95b69d/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b50f8f3e-65c3-4bf0-ba40-fb769a95b69d/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b50f8f3e-65c3-4bf0-ba40-fb769a95b69d/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b50f8f3e-65c3-4bf0-ba40-fb769a95b69d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b50f8f3e-65c3-4bf0-ba40-fb769a95b69d/storage_v2/_src_/database/product.78yN7Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b50f8f3e-65c3-4bf0-ba40-fb769a95b69d/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b50f8f3e-65c3-4bf0-ba40-fb769a95b69d/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/immense.BCCecg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/immense.BCCecg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/immense.BCCecg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/product.78yN7Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb18e3bf-c7a6-447a-b7d4-0fad4bea46b6/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd69443a-7211-4f87-bb5f-732a058bdf2f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd69443a-7211-4f87-bb5f-732a058bdf2f/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd69443a-7211-4f87-bb5f-732a058bdf2f/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd69443a-7211-4f87-bb5f-732a058bdf2f/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd69443a-7211-4f87-bb5f-732a058bdf2f/storage_v2/_src_/database/postgres.edMnLQ/schema/product.78yN7Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd69443a-7211-4f87-bb5f-732a058bdf2f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7e2653d-ecd6-4737-8f91-019e1a4175e8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7e2653d-ecd6-4737-8f91-019e1a4175e8/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7e2653d-ecd6-4737-8f91-019e1a4175e8/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7e2653d-ecd6-4737-8f91-019e1a4175e8/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7e2653d-ecd6-4737-8f91-019e1a4175e8/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +31,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Class" />
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -90,6 +43,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/service/EmailService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/client/ProductClient.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/entity/Order.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/order-service/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
@@ -128,7 +82,7 @@
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projects/immense-app/services/payment-service/pom.xml",
+    "last_opened_file_path": "C:/projects/immense-app/services/notification-service/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -221,6 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.davymbaimbai.notificationservice.NotificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -242,6 +203,7 @@
     </configuration>
     <list>
       <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
+      <item itemvalue="Spring Boot.NotificationServiceApplication" />
       <item itemvalue="Spring Boot.1 config-server" />
       <item itemvalue="Spring Boot.2 eureka-service" />
       <item itemvalue="Spring Boot.3 customer-service" />
@@ -271,7 +233,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716905568955</updated>
       <workItem from="1716905574357" duration="72493000" />
-      <workItem from="1717067254756" duration="4592000" />
+      <workItem from="1717067254756" duration="10416000" />
     </task>
     <task id="LOCAL-00001" summary="E commerce app code solution">
       <option name="closed" value="true" />
@@ -321,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717061355955</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="E commerce app code solution">
+      <option name="closed" value="true" />
+      <created>1717073299058</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717073299058</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
