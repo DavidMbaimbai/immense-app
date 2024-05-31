@@ -4,7 +4,7 @@ services:
     image: postgres
     environment:
       POSTGRES_USER: tino
-      POSTGRES_PASSWORD: tino
+      POSTGRES_PASSWORD: root
       PGDATA: /data/postgres
     volumes:
       - postgres:/data/postgres

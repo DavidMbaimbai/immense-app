@@ -11,7 +11,6 @@ spring:
       ddl-auto: create
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-
   kafka:
     producer:
       bootstrap-servers: localhost:9092

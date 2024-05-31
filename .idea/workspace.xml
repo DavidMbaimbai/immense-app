@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5abf214f-b64a-4341-8c06-f7fa2ed178bb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +64,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.1 config-server.executor": "Debug",
-    "Spring Boot.2 eureka-service.executor": "Run",
+    "Spring Boot.2 eureka-service.executor": "Debug",
     "Spring Boot.3 customer-service.executor": "Debug",
     "Spring Boot.4 product-service.executor": "Debug",
     "Spring Boot.5 payment-service.executor": "Debug",
+    "Spring Boot.6 order-service.executor": "Debug",
+    "Spring Boot.7 notification-service.executor": "Debug",
+    "Spring Boot.8 gateway-service.executor": "Debug",
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -164,16 +167,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.davymbaimbai.ecommerce.GatewayApplication" />
+    <configuration name="7 notification-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.davymbaimbai.notificationservice.NotificationServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="notification-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.davymbaimbai.notificationservice.NotificationServiceApplication" />
+    <configuration name="8 gateway-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.davymbaimbai.ecommerce.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,14 +202,14 @@
     </configuration>
     <list>
       <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Spring Boot.NotificationServiceApplication" />
       <item itemvalue="Spring Boot.1 config-server" />
       <item itemvalue="Spring Boot.2 eureka-service" />
       <item itemvalue="Spring Boot.3 customer-service" />
       <item itemvalue="Spring Boot.4 product-service" />
       <item itemvalue="Spring Boot.5 payment-service" />
       <item itemvalue="Spring Boot.6 order-service" />
+      <item itemvalue="Spring Boot.7 notification-service" />
+      <item itemvalue="Spring Boot.8 gateway-service" />
     </list>
     <recent_temporary>
       <list>
@@ -230,7 +233,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716905568955</updated>
       <workItem from="1716905574357" duration="72493000" />
-      <workItem from="1717067254756" duration="18002000" />
+      <workItem from="1717067254756" duration="20224000" />
     </task>
     <task id="LOCAL-00001" summary="E commerce app code solution">
       <option name="closed" value="true" />
@@ -336,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717087428016</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="E commerce app code solution">
+      <option name="closed" value="true" />
+      <created>1717093979479</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717093979479</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
