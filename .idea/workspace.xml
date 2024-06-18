@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5abf214f-b64a-4341-8c06-f7fa2ed178bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/immense-frontend/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/immense-frontend/src/app/components/product-list/product-list-table.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c14e3f9b-2f84-47fe-aec9-ff6b2244cfe4/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/product-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/product-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/record/ProductPurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/record/ProductPurchaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/src/main/resources/db/migration/V1__init_database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/src/main/resources/db/migration/V2__insert_data.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +50,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/immense-frontend/src/app/app.component.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/immense-frontend/src/app/app.module.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/immense-frontend/src/app/components/product-list/product-list-table.component.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/notification-service/src/main/java/com/davymbaimbai/notificationservice/service/EmailService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/notification-service/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
@@ -36,6 +60,7 @@
     <setting file="file://$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/client/ProductClient.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/order-service/src/main/java/com/davymbaimbai/ecommerce/entity/Order.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/order-service/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/entity/Category.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/services/product-service/src/main/java/com/davymbaimbai/ecommerce/entity/Product.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="KubernetesApiProvider">{
@@ -74,13 +99,14 @@
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projects/immense-app/services/gateway/pom.xml",
+    "last_opened_file_path": "C:/projects/immense-app/immense-frontend/src/app/components/product-list",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
+    "ts.external.directory.path": "C:\\projects\\immense-app\\immense-frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -100,6 +126,7 @@
       <recent name="com.davymbaimbai.ecommerce.handler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\immense-app\immense-frontend\src\app\components\product-list" />
       <recent name="C:\projects\immense-app\services\order-service\src\main\java\com\davymbaimbai\ecommerce" />
       <recent name="C:\projects\immense-app\services\product-service\src\main\java\com\davymbaimbai\ecommerce" />
       <recent name="C:\projects\immense-app\services" />
@@ -217,13 +244,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -234,6 +254,7 @@
       <updated>1716905568955</updated>
       <workItem from="1716905574357" duration="72493000" />
       <workItem from="1717067254756" duration="20224000" />
+      <workItem from="1718733334715" duration="6057000" />
     </task>
     <task id="LOCAL-00001" summary="E commerce app code solution">
       <option name="closed" value="true" />
